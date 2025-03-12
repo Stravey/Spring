@@ -10,6 +10,8 @@ public class ApplicationContextTest {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserService userService = (UserService) applicationContext.getBean("userService");
         System.out.println(userService);
+
+
     }
 
 }

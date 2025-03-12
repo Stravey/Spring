@@ -9,5 +9,4 @@
 
     <bean id = "userDao" class="com.strive.dao.impl.UserDaoImpl"> </bean>
 
-
 </beans>
